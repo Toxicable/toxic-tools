@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "rebase": "rebase.js"
+    "rebase": "bin/rebase.js"
   },
   "scripts": {
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
