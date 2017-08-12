@@ -1,0 +1,22 @@
+{
+  "name": "@toxicable/rebase",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "rebase": "rebase.js"
+  },
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toxicable/toxic-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toxicable/toxic-tools/issues"
+  },
+  "homepage": "https://github.com/Toxicable/toxic-tools#readme"
+}
